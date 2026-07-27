@@ -67,12 +67,13 @@ Headline options:
 ### Navigation (desktop)
 **Primary:** Employment · Business & Personal · About · Resources · **Start a File** (button) · **Schedule** (button)
 
-Mobile: sticky bottom bar — **Call (309) 391-3489** | Schedule | Start a File
+Mobile: sticky bottom bar — **Call (309) 391-3489** | Schedule | AI Intake
 
 ### URL principles
 - Human-readable, keyword-honest, stable
 - No city spam in every slug; put locality in titles/H1s/schema `areaServed`
 - Employment spokes nest under `/employment/` for topical strength
+- Instant Attorney stays on **instant-attorney.com** (linked out — see [Instant Attorney integration](instant-attorney-integration.md))
 
 ---
 
@@ -334,6 +335,7 @@ Missed call / after-hours SMS → AI qualifies + books or creates CRM lead → A
 - [Attorney bio & messaging](../content/attorney-bio-and-messaging.md)
 - [Intake & Twilio AI assistant](intake-and-twilio-assistant.md)
 - [Scheduler recommendation](scheduler-recommendation.md)
+- [Instant Attorney integration](instant-attorney-integration.md)
 - [Small-firm website benchmarks](../research/small-firm-website-benchmarks.md)
 - [Local & AI search research](../research/local-and-ai-search.md)
 - [CLF content inventory (photos/copy only)](../research/crawfordlawfinance-content-inventory.md)
