@@ -85,17 +85,18 @@ Mobile: sticky bottom bar — **Call (309) 391-3489** | Schedule | Start a File
 1. Brand: Crawford Law PLLC
 2. One headline (Fortune 100–tested / employer counsel — see messaging doc)
 3. One supporting sentence (Leander / Central Texas · TX & IL licensed)
-4. CTA group: **Start a File** · **Schedule a Consultation** · tap-to-call **(309) 391-3489**
-5. One dominant full-bleed visual — professional attorney/office photography (`andrew.jpg` from prior site or new headshot)
+4. CTA group: **Schedule a Consultation** · **Start AI Intake** (→ Instant Attorney) · tap-to-call **(309) 391-3489**
+5. One dominant full-bleed visual — professional attorney photography (user-preferred portrait when provided)
 
 **Below the fold (ordered):**
 1. Two-path chooser: *For Employers* | *For Business & Personal Matters*
 2. Employment service cluster: Investigations · Leave & Accommodations · Training · Labor Relations
 3. **Fortune-scale credibility band** (Deere · Microsoft/ABK · headcounts — short; see messaging doc)
-4. Short “How engagement works” (4 steps)
-5. About Andrew teaser → `/about`
-6. Local trust line (Leander · Williamson County · Texas · also licensed in Illinois)
-7. Final CTA band + phone
+4. **AI Intake band** — Instant Attorney free-chat (Phase I disclaimer; deep link with UTMs)
+5. Short “How engagement works” (4 steps) — AI intake *or* schedule *or* call
+6. About Andrew teaser → `/about`
+7. Local trust line (Leander · Williamson County · Texas · also licensed in Illinois)
+8. Final CTA band + phone
 
 **Avoid on first viewport:** logo soup, multi-card grids, floating badges, schedule widgets, address blocks, blog teasers, finance co-branding.
 
@@ -332,6 +333,7 @@ Missed call / after-hours SMS → AI qualifies + books or creates CRM lead → A
 ## Related docs
 - [Attorney bio & messaging](../content/attorney-bio-and-messaging.md)
 - [Intake & Twilio AI assistant](intake-and-twilio-assistant.md)
+- [Scheduler recommendation](scheduler-recommendation.md)
 - [Small-firm website benchmarks](../research/small-firm-website-benchmarks.md)
 - [Local & AI search research](../research/local-and-ai-search.md)
 - [CLF content inventory (photos/copy only)](../research/crawfordlawfinance-content-inventory.md)

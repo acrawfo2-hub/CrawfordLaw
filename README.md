@@ -12,6 +12,7 @@ Website and planning workspace for **Crawford Law PLLC** — a Texas solo law fi
 | [Website architecture plan](docs/plans/website-architecture.md) | IA, page specs, intake flow, launch phases |
 | [Intake & Twilio AI assistant](docs/plans/intake-and-twilio-assistant.md) | `(309) 391-3489` now; new number + Twilio AI next |
 | [Scheduler recommendation](docs/plans/scheduler-recommendation.md) | Cal.com + Outlook/Apple (no Google); AI-API ready |
+| [Instant Attorney integration](docs/plans/instant-attorney-integration.md) | Firm site ↔ instant-attorney.com AI intake CTAs |
 | [Small-firm website benchmarks](docs/research/small-firm-website-benchmarks.md) | Boutique site pattern research |
 | [Local & AI search](docs/research/local-and-ai-search.md) | Leander SEO + Answer Engine Optimization |
 | [CLF content inventory](docs/research/crawfordlawfinance-content-inventory.md) | Photos/copy donor notes (Andrew only) |
