@@ -11,9 +11,11 @@
 ```text
 Site CTAs
   ├─ Call (309) 391-3489     → Andrew / voicemail
-  ├─ Schedule                → calendar embed (Clio / Calendly)
+  ├─ Schedule                → Cal.com embed (Outlook/Apple calendar sync — no Google)
   └─ Start a File            → short web intake → CRM → confirm + deeper questionnaire
 ```
+
+**Scheduler decision:** **Cal.com** as booking system of record (AI-API ready). Sync busy/free to **Microsoft 365 Outlook** (recommended) or Apple Calendar. Details: [Scheduler recommendation](scheduler-recommendation.md).
 
 **NAP consistency:** Use `(309) 391-3489` on website, GBP, directories, schema `telephone` until the new number cuts over.
 
@@ -51,10 +53,11 @@ AI assistant (Agent Connect / ConversationRelay or Conversations + LLM)
     ├─ Greets as Crawford Law PLLC virtual assistant
     ├─ States: not a lawyer; no legal advice; confidential intake for scheduling
     ├─ Asks path + urgency + basics
-    ├─ Books via scheduler API  OR  creates CRM lead + SMS confirmation
+    ├─ Books via **Cal.com API** (get slots → create booking)  OR  creates CRM lead + SMS confirmation
     └─ Escalates to Andrew (SMS alert / warm transfer) when flagged urgent
 ```
 
+**AI scheduling socket:** Cal.com API key + webhooks configured in Phase 1 so Twilio only needs tool calls later — see [Scheduler recommendation](scheduler-recommendation.md).
 ### Compliance & ethics guardrails (non-negotiable)
 - Scripted disclaimer at start of every AI voice/SMS session
 - No legal advice, no outcome predictions, no interpretation of statutes

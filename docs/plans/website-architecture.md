@@ -187,7 +187,7 @@ Consult → engagement letter → LawPay → CMS matter + portal
 |---|---|---|
 | Intake + CRM | Clio Grow | Lawmatics |
 | Practice management | Clio Manage | Clio Manage or MyCase |
-| Scheduling | Clio Scheduler | Calendly → CRM |
+| Scheduling | **Cal.com** → Outlook/Apple | Same (AI uses Cal.com API) |
 | Voice/SMS AI (Phase 2) | Twilio + Agent Connect / ConversationRelay | Same |
 | E-sign | Native / HelloSign | Native |
 | Payments | LawPay | LawPay |
@@ -304,15 +304,16 @@ Missed call / after-hours SMS → AI qualifies + books or creates CRM lead → A
 ## 9. Open decisions (resolve before build)
 
 1. **Domain:** crawfordlaw.com / crawfordlawpllc.com / crawford.law / other?
-2. **Practice management stack:** Clio vs MyCase vs other?
-3. **Office posture:** Publish 300 Bello Drive on GBP/site, or service-area only?
-4. **Fee posture:** publish consult fee / ranges, or “contact for engagement terms”?
-5. **Family law / estate scope:** full representation vs uncontested / planning-only at launch?
-6. **Photos:** Import prior `andrew.jpg` or commission new professional headshots?
-7. **Primary CTA verb:** “Start a File” + “Schedule” (recommended) vs phone-first?
-8. **ABK role wording:** “Present” vs “Most recently” at launch?
-9. **Twilio number:** prefer 512/737 local vs keep 309 publicly until cutover?
-10. **Firm email:** which domain mailbox becomes public contact?
+2. **Practice management stack:** Clio vs MyCase vs other? (Keep **Cal.com** for public/AI booking unless you deliberately choose Clio Scheduler-only.)
+3. **Personal calendar backend:** Microsoft 365 Outlook (recommended) vs Apple Calendar?
+4. **Office posture:** Publish 300 Bello Drive on GBP/site, or service-area only?
+5. **Fee posture:** publish consult fee / ranges, or “contact for engagement terms”?
+6. **Family law / estate scope:** full representation vs uncontested / planning-only at launch?
+7. **Photos:** Import prior `andrew.jpg` or commission new professional headshots?
+8. **Primary CTA verb:** “Start a File” + “Schedule” (recommended) vs phone-first?
+9. **ABK role wording:** “Present” vs “Most recently” at launch?
+10. **Twilio number:** prefer 512/737 local vs keep 309 publicly until cutover?
+11. **Firm email:** which domain mailbox becomes public contact?
 
 ---
 

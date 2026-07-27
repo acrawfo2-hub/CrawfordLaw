@@ -123,20 +123,21 @@ Replace “Legal / Financial / Both” service selector with PLLC paths:
 
 ## Contact facts to confirm before publish
 
-- [ ] Keep **(512) 739-2100** on Crawford Law PLLC?
-- [ ] Public address: Leander filing address vs Austin metro only?
-- [ ] How to describe Activision Blizzard tenure now that PLLC is formed?
-- [ ] Cross-link or soft-refer Crawford Law & Finance / Vicky, or fully separate brands?
-- [ ] Redirect strategy if finance site URLs compete for Andrew/employment queries?
+- [x] PLLC phone for launch: **(309) 391-3489**
+- [ ] New Twilio number + AI assistant cutover timing
+- [ ] Public address: 300 Bello Drive on GBP/site?
+- [ ] How to describe Activision Blizzard King tenure (“present” vs “most recently”)
+- [x] No finance co-brand on PLLC site
+- [ ] Firm email on new domain
 
 ---
 
 ## Suggested reuse checklist for build
 
-- [ ] Import `andrew.jpg` (+ office photo if desired)
-- [ ] Rewrite About using medium bio + career/education blocks
-- [ ] Port investigations, labor relations, agency defense, contracts, consulting copy into employment spokes (edit brand name → Crawford Law PLLC)
-- [ ] Draft new FMLA/ADA/leave and Training pages from scratch
-- [ ] Add Person schema: J.D., SPHR, IL/TX bar, sameAs links
-- [ ] Use phone in sticky mobile CTA once confirmed
+- [ ] Import `andrew.jpg` only if quality meets professional brand bar (else new headshot)
+- [ ] Prefer resume-based About copy in `docs/content/attorney-bio-and-messaging.md`
+- [ ] Adapt CLF investigations / labor / consulting blurbs under Crawford Law PLLC naming
+- [ ] Draft FMLA/ADA/leave and Training pages from resume expertise
+- [ ] Add Person schema from resume credentials
+- [ ] Use `(309) 391-3489` in sticky mobile CTA until Twilio cutover
 - [ ] Do not port Vicky finance services into PLLC nav
