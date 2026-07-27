@@ -2,21 +2,22 @@
 
 **Source:** [https://crawfordlawfinance.com/](https://crawfordlawfinance.com/)  
 **Captured:** July 27, 2026  
-**Purpose:** Reuse Andrew-relevant copy, credentials, services, and media for **Crawford Law PLLC** (law-only entity). Finance/Vicky content is listed only for boundary clarity — do not port as PLLC offerings unless intentionally cross-referred.
+**Purpose:** Reuse Andrew-relevant photos and adaptable employment service copy for **Crawford Law PLLC**.  
+**Decision:** PLLC is **not** joint with Vicky/finance. Resume is now the bio source of truth; this inventory is secondary (media + some service phrasing).
 
 ---
 
 ## Brand boundary
 
-| Existing site (Law & Finance) | New site (Crawford Law PLLC) |
+| Do not use on PLLC | May reuse |
 |---|---|
-| Joint brand: Andrew (law) + Vicky (finance) | Solo PLLC: legal services only |
-| Positioning: “Where Law Meets Financial Strategy” | Positioning: employer-side employment + local business/personal counsel |
-| Contact: info@crawfordlawfinance.com | New PLLC domain/email TBD |
-| Phone: **(512) 739-2100** | Reuse if still the practice line |
-| Location language: Austin metro | Prefer **Leander** primary + Austin / Williamson metro (per SOS filing) |
+| Joint “Law & Finance” positioning | Andrew employment service blurbs (edited) |
+| Vicky / finance services, testimonials about dual firm | `andrew.jpg` (and office photo if still accurate) |
+| `(512) 739-2100` as PLLC number | — |
+| Finance CTAs / “Legal / Financial / Both” forms | Structure ideas for short consult forms |
 
-**Recommendation:** Treat the existing site as a **content & asset donor**, not a layout clone. Keep Andrew’s operator-credibility story; drop the dual-discipline “one firm” thesis unless you later add a soft referral to finance services.
+**PLLC scheduling phone:** `(309) 391-3489` (resume / confirmed)  
+**Soon:** new number + Twilio AI assistant (see intake plan)
 
 ---
 

@@ -1,36 +1,35 @@
 # Website Architecture Plan — Crawford Law PLLC
 
-**Status:** Planning (research complete; build not started)  
-**Brand:** Crawford Law PLLC  
-**Location:** Leander, Texas (Williamson County / North Austin metro)  
-**Attorney:** Andrew Michael Crawford, J.D., SPHR (licensed IL & TX)  
+**Status:** Planning (research complete; messaging draft ready; build not started)  
+**Brand:** Crawford Law PLLC — **law only** (not joint with finance)  
+**Location:** 300 Bello Drive, Leander, Texas 78641 (Williamson County / North Austin metro)  
+**Attorney:** Andrew M. Crawford, J.D., SPHR (licensed TX & IL)  
 **Entity:** Texas PLLC, SOS File No. 806712661 (effective 07/24/2026)  
-**Existing content donor:** [crawfordlawfinance.com](https://crawfordlawfinance.com/) — Andrew’s bio, employment services, and photos (see inventory doc)
+**Scheduling phone (current):** `(309) 391-3489`  
+**Planned:** New local number + Twilio AI assistant for intake/scheduling  
+**Content sources:** Resume (primary for bio/proof) · [crawfordlawfinance.com](https://crawfordlawfinance.com/) (Andrew photos + adaptable employment copy only)
 
 ---
 
 ## 1. Strategic positioning (drives all IA)
 
 ### Recommended brand thesis
-**Primary:** Employer-side labor & employment counsel for Central Texas businesses — workplace investigations, FMLA/ADA leave & accommodations, trainings, labor relations, and day-to-day employer counsel.  
+**Primary:** Employer-side labor & employment counsel for Central Texas — workplace investigations, FMLA/ADA leave & accommodations, trainings, labor relations, and day-to-day employer counsel — grounded in **Fortune 100–scale in-house experience** (Deere & Company; Microsoft / Activision Blizzard King).  
 **Secondary:** Trusted local counsel for business formations, contracts, family law, and estate planning.
 
-### Core differentiator (from existing site — keep)
-Andrew is not a pure outside advisor bio. He spent nearly a decade in labor & employee relations at **John Deere** (bargaining opposite 10,000+ UAW members; strikes; NLRB), then HR leadership in Central Texas (**Activision Blizzard**, **The Boring Company**), with **J.D. (Magna Cum Laude) + SPHR**. That “operator who became counsel” story is the trust engine for employer buyers — stronger than generic solo-attorney stock language.
+### Core differentiator
+Andrew is not a brochure “outside advisor” bio. He advised senior leadership inside **Deere & Company** (Labor Relations Manager; CBA covering **10,000** unionized employees; compliance for **1,200+** distribution employees) and within **Microsoft’s Activision Blizzard King** organization (HR Manager & Legal Advisor; first-contract bargaining for **700+** QA employees), plus employment-law HR leadership at The Boring Company. **J.D. Magna Cum Laude + SPHR + dual TX/IL licensure.** That operator-at-scale story is the trust engine.
 
-### Why this split
-Top boutique sites that convert employers (Perez Law, Treaty Oak) win by **sharp product clarity**. Flat “full-service” solos dilute SEO, AEO entity signals, and buyer confidence. Architecture should make employment the **depth engine** and general practice the **local relationship engine**.
+### Brand boundary (firm)
+**Crawford Law PLLC is solo law.** No finance co-brand, no joint homepage, no Vicky/finance services in navigation. Prior Law & Finance site may donate Andrew photos and employment copy only.
 
-### Relationship to crawfordlawfinance.com
-That site is a joint Law & Finance brand (Andrew + Vicky). **Crawford Law PLLC** should be the law-only entity site: port Andrew’s legal copy and assets; do **not** port finance services into PLLC navigation. Optional later: soft referral to finance — not required for MVP.
+### Homepage promise (draft)
+> Crawford Law PLLC — Employment counsel shaped by Fortune 100 in-house experience, for Leander and Central Texas employers — plus practical counsel for business and personal matters.
 
-### Homepage promise (draft direction)
-> Crawford Law PLLC — Employment counsel grounded in real HR and labor experience, plus practical legal guidance for Leander and Central Texas.
-
-Headline options to stress-test later:
-- Employer path: “Workplace issues handled correctly — investigations, leave, labor, and training.”
-- Operator path: “Counsel from someone who has sat in the HR seat — and at the bargaining table.”
-- Combined: “Clear counsel when work gets complicated — and when life or business needs a lawyer.”
+Headline options:
+- “Fortune 100–tested employment counsel — now for Central Texas employers.”
+- “Investigations, leave, labor, and training — from someone who has owned those problems inside the company.”
+- “Clear counsel when work gets complicated.”
 
 ---
 
@@ -39,26 +38,26 @@ Headline options to stress-test later:
 ```text
 /
 ├── /employment/                          ← Specialty hub
-│   ├── /workplace-investigations/        ← port + expand from CLF
-│   ├── /fmla-ada-leave-accommodations/   ← NEW (PLLC focus; weak on CLF)
-│   ├── /workplace-training/              ← NEW (PLLC focus)
-│   ├── /labor-relations/                 ← port from CLF (major differentiator)
-│   ├── /agency-defense/                  ← NLRB / EEOC / ULP (port from CLF)
+│   ├── /workplace-investigations/        ← resume expertise + CLF copy
+│   ├── /fmla-ada-leave-accommodations/   ← resume “Accommodation and Leaves”
+│   ├── /workplace-training/              ← NEW productized offering
+│   ├── /labor-relations/                 ← Deere / ABK bargaining proof
+│   ├── /agency-defense/                  ← NLRB / EEOC / ULP
 │   └── /employer-counsel/                ← consulting, policies, contracts, pay design
-├── /business-personal/                   ← Secondary hub (from CLF “General Legal”)
+├── /business-personal/                   ← Secondary hub
 │   ├── /business-formations/
 │   ├── /contracts/
 │   ├── /family-law/
 │   └── /estate-planning/
-├── /start-a-file/                        ← Intake router (conversion spine)
+├── /start-a-file/                        ← Web intake router
 ├── /schedule/                            ← Book consultation
-├── /about/                               ← Andrew bio from CLF (rewritten for PLLC)
+├── /about/                               ← Resume-accurate Fortune 100 bio
 ├── /approach/                            ← How we work / engagement models
 ├── /resources/                           ← Guides & insights (AEO content)
 │   └── /resources/[slug]/
 ├── /service-area/                        ← Leander + North Austin / Williamson
-├── /contact/
-├── /client-portal/                       ← Link out or embed (Clio/MyCase/etc.)
+├── /contact/                             ← (309) 391-3489 + forms; later Twilio number
+├── /client-portal/
 ├── /privacy/
 └── /disclaimer/
 ```
@@ -68,7 +67,7 @@ Headline options to stress-test later:
 ### Navigation (desktop)
 **Primary:** Employment · Business & Personal · About · Resources · **Start a File** (button) · **Schedule** (button)
 
-Mobile: sticky bottom bar — Call | Schedule | Start a File
+Mobile: sticky bottom bar — **Call (309) 391-3489** | Schedule | Start a File
 
 ### URL principles
 - Human-readable, keyword-honest, stable
@@ -84,21 +83,21 @@ Mobile: sticky bottom bar — Call | Schedule | Start a File
 
 **Above the fold (only):**
 1. Brand: Crawford Law PLLC
-2. One headline
-3. One supporting sentence (specialty + Leander/Central Texas; optional “IL & TX licensed”)
-4. CTA group: **Start a File** · **Schedule a Consultation** (optional text link: Call — candidate number `(512) 739-2100` pending confirm)
-5. One dominant full-bleed visual — prefer imported **`andrew.jpg`** / office photography from crawfordlawfinance.com
+2. One headline (Fortune 100–tested / employer counsel — see messaging doc)
+3. One supporting sentence (Leander / Central Texas · TX & IL licensed)
+4. CTA group: **Start a File** · **Schedule a Consultation** · tap-to-call **(309) 391-3489**
+5. One dominant full-bleed visual — professional attorney/office photography (`andrew.jpg` from prior site or new headshot)
 
 **Below the fold (ordered):**
 1. Two-path chooser: *For Employers* | *For Business & Personal Matters*
-2. Employment service cluster (not equal-weight clutter): Investigations · Leave & Accommodations · Training · Labor Relations
-3. Operator-credibility band (John Deere / Central Texas HR — short, not a résumé dump)
+2. Employment service cluster: Investigations · Leave & Accommodations · Training · Labor Relations
+3. **Fortune-scale credibility band** (Deere · Microsoft/ABK · headcounts — short; see messaging doc)
 4. Short “How engagement works” (4 steps)
 5. About Andrew teaser → `/about`
 6. Local trust line (Leander · Williamson County · Texas · also licensed in Illinois)
-7. Final CTA band
+7. Final CTA band + phone
 
-**Avoid on first viewport:** stats strips, multi-card grids, floating badges, schedule widgets, address blocks, blog teasers.
+**Avoid on first viewport:** logo soup, multi-card grids, floating badges, schedule widgets, address blocks, blog teasers, finance co-branding.
 
 ### B. Employment hub + spokes
 Each spoke page is a **solution hub**:
@@ -114,89 +113,73 @@ Each spoke page is a **solution hub**:
 | FAQs (6–10) + FAQ schema | AEO |
 | CTA module (Start a File / Schedule) | Conversion |
 
-**Content source map (CLF = crawfordlawfinance.com):**
+**Content source map:**
 
 | Spoke | Source | Build note |
 |---|---|---|
-| Workplace Investigations | Port CLF “Workplace Investigations” | Strongest ready copy; align to PLLC brand |
-| FMLA / ADA / Leave | **New** | Your stated specialty; write Texas-forward process page |
-| Workplace Training | **New** | Productize formats (managers, HR, investigations, leave) |
-| Labor Relations | Port CLF bargaining / union-management | Rare local differentiator — keep |
-| Agency Defense (NLRB/EEOC/ULP) | Port CLF defense copy | Own page or subsection of Employer Counsel |
-| Employer Counsel | Port CLF Employment Law Consulting + contracts + incentive pay | Policies, RIFs, agreements, compensation design |
+| Workplace Investigations | Resume expertise + CLF investigations copy | Lead with Fortune-scale investigation experience |
+| FMLA / ADA / Leave | Resume “Accommodation and Leaves” + Boring FLSA/FMLA counsel | Texas-forward process page — priority specialty |
+| Workplace Training | New productization | Managers / HR / investigations / leave modules |
+| Labor Relations | Resume Deere CBA + ABK/CWA bargaining | Strongest differentiator — keep prominent |
+| Agency Defense (NLRB/EEOC/ULP) | CLF defense copy + resume ER/LR work | Own page or subsection of Employer Counsel |
+| Employer Counsel | Resume counseling + handbook/policy/incentive pay | Policies, RIFs, agreements, compensation design |
 
 ### C. Business & Personal hub + spokes
-Same template, lighter depth at launch. Seed from CLF “General Legal Services.” Prioritize formations, contracts, estate planning, family law with honest scope language (what you handle vs refer).
+Same template, lighter depth at launch. Prioritize formations, contracts, estate planning, family law with honest scope language (what you handle vs refer).
 
-### C2. About (`/about`) — content outline from CLF
-1. Hero photo (`andrew.jpg`) + name line: Andrew Crawford, J.D., SPHR  
-2. Licensure: Illinois & Texas · based in Leander / Austin metro  
-3. Medium bio (investigations, bargaining, SPHR + J.D.)  
-4. Career highlights (verify Activision “Present” before publish)  
-5. Education + credentials  
-6. CTA: Schedule / Start a File  
-7. `Person` schema with `hasCredential`, `alumniOf`, `knowsAbout`, `sameAs`
+### D. About (`/about`)
+Full publish-ready draft: [Attorney bio & messaging](../content/attorney-bio-and-messaging.md)
 
-### D. Start a File (`/start-a-file`) — conversion spine
-This is the system that makes “start a file with me” easy.
+1. Hero photo + Andrew M. Crawford, J.D., SPHR  
+2. Licensure: Texas & Illinois · Leander · `(309) 391-3489`  
+3. Fortune 100 / in-house professional summary  
+4. Narrative: Deere → Boring Company → Microsoft/ABK  
+5. Career timeline + education  
+6. CTA: Schedule / Start a File / Call  
+7. `Person` schema with credentials, `alumniOf`, `knowsAbout`, `sameAs`
 
-**Step 0 — Path**
-- Employer / workplace matter
-- Business matter
-- Personal / family / estate
+### E. Start a File (`/start-a-file`) — conversion spine
 
-**Step 1 — Short pre-screen (3–6 fields)**
-- Name, email, phone
-- Organization (if employer/business)
-- One-sentence issue
-- Urgency (this week / this month / planning)
-- Preferred consult mode (video / phone / in person)
+**Step 0 — Path:** Employer / workplace · Business · Personal / family / estate  
 
-**Step 2 — Conflict basics**
-- Adverse party / opposing company / other involved names (as applicable)
-- Acknowledgment that consult ≠ representation
+**Step 1 — Short pre-screen (3–6 fields):** name, email, phone, organization (if applicable), one-sentence issue, urgency, preferred consult mode  
 
-**Step 3 — Schedule**
-- Embedded scheduler (Clio Scheduler / Calendly / Lawmatics — pick one stack)
+**Step 2 — Conflict basics:** adverse parties + acknowledgment that consult ≠ representation  
 
-**Step 4 — Confirmation**
-- What happens next
-- Secure link to deeper intake questionnaire (practice-specific)
-- Optional document upload instructions
+**Step 3 — Schedule:** embedded scheduler **or** call `(309) 391-3489` (later: Twilio AI books / creates lead)  
 
-**Step 5 — Post-consult (ops, may be off-site)**
-- Engagement letter e-sign
-- Retainer payment (LawPay)
-- Matter opened in practice management + client portal invite
+**Step 4 — Confirmation:** next steps + deeper questionnaire + secure upload instructions  
 
-### E. About
-Named trust page: photo, bio narrative, bar admission, education, `Person` schema, sameAs (LinkedIn, State Bar, Avvo). Solo sites convert when the human is visible.
+**Step 5 — Post-consult:** engagement letter → LawPay → CMS matter + portal  
 
 ### F. Resources
 Publishing cadence target: 2 posts/month initially, mapped to practice FAQs. Every article links to the relevant spoke + Start a File.
 
 ### G. Service Area
-One substantive page: Leander base, North Austin / Williamson County employers and families, in-person + remote counsel. Mention real context (local employers, growth corridor) without thin city doorway pages.
+One substantive page: Leander base (300 Bello Drive), North Austin / Williamson County employers and families, in-person + remote counsel. Real local context — no thin city doorway pages.
 
 ---
 
 ## 4. Intake & appointment system architecture
 
 ```text
-Website CTA
+Website / Phone / (later) Twilio AI
     ↓
-/start-a-file (path + short form)
+Lead captured (web form | call | AI voice/SMS)
     ↓
 CRM / intake tool (Clio Grow | Lawmatics | MyCase)
     ↓
-Auto: confirmation email + conflict flag to attorney
+Auto: confirmation + conflict flag to attorney
     ↓
-Scheduler books consult
+Scheduler books consult  OR  AI offers slots
     ↓
 Deeper matter questionnaire (conditional by practice)
     ↓
 Consult → engagement letter → LawPay → CMS matter + portal
 ```
+
+**Current public phone:** `(309) 391-3489`  
+**Soon:** New firm number + Twilio AI assistant — see [Intake & Twilio AI assistant](intake-and-twilio-assistant.md)
 
 ### Recommended stack options (solo-friendly)
 
@@ -205,19 +188,20 @@ Consult → engagement letter → LawPay → CMS matter + portal
 | Intake + CRM | Clio Grow | Lawmatics |
 | Practice management | Clio Manage | Clio Manage or MyCase |
 | Scheduling | Clio Scheduler | Calendly → CRM |
+| Voice/SMS AI (Phase 2) | Twilio + Agent Connect / ConversationRelay | Same |
 | E-sign | Native / HelloSign | Native |
 | Payments | LawPay | LawPay |
 | Portal | Clio portal | MyCase portal |
 
-**Decision rule:** If you already plan Clio for billing/matters, use **Clio Grow + Scheduler** for least glue code. If intake automation is the priority and Clio isn’t chosen yet, evaluate Lawmatics.
+**Decision rule:** If you already plan Clio for billing/matters, use **Clio Grow + Scheduler** for least glue code. Add Twilio as the phone front door once the new number is ready — do not block MVP launch on AI.
 
 ### Ethical / operational requirements
-- Clear disclaimer before consult
-- Conflict check before engagement (and ideally before deep consult when possible)
-- No legal advice via public forms
+- Clear disclaimer before consult and on AI channels (assistant is not a lawyer; no legal advice)
+- Conflict check before engagement
+- No legal advice via public forms or AI assistant
 - Secure transport of uploads; avoid emailing sensitive investigation files unencrypted
 - Texas advertising / communication rules compliance on testimonials and outcomes language
-
+- NAP cutover plan when replacing `(309) 391-3489` on public listings
 ---
 
 ## 5. Technical architecture (site build)
@@ -249,28 +233,28 @@ Consult → engagement letter → LawPay → CMS matter + portal
 ## 6. Content launch priorities
 
 ### Phase 0 — Foundations
-- [ ] Domain + professional email
-- [ ] GBP claimed (Crawford Law PLLC, Leander)
+- [ ] Domain + professional firm email (not personal Gmail as primary)
+- [ ] GBP claimed (Crawford Law PLLC, Leander) with phone **(309) 391-3489**
 - [ ] State Bar / Avvo / Justia profiles with consistent NAP
-- [ ] Import photography from CLF (`andrew.jpg`, optional `office.png`) + brand direction (avoid generic legal purple / Inter-default look from CLF)
-- [ ] Confirm phone `(512) 739-2100`, public address, and current employment disclosures
+- [ ] Professional photography (import or new headshot) + distinctive brand direction
+- [ ] Confirm public wording for current/most recent Microsoft–ABK role
 
 ### Phase 1 — MVP site (conversion-ready)
-- [ ] Home (operator-credibility + dual path)
-- [ ] Employment hub + spokes: Investigations, Leave/Accommodations, Training, Labor Relations, Employer Counsel (port/adapt CLF where noted)
+- [ ] Home (Fortune 100 credibility + dual path + phone CTA)
+- [ ] Employment hub + spokes: Investigations, Leave/Accommodations, Training, Labor Relations, Employer Counsel
 - [ ] Business & Personal hub + 4 spokes (lighter)
-- [ ] About (full Andrew bio from CLF inventory), Contact, Service Area
-- [ ] Start a File + Schedule wired to CRM/calendar
+- [ ] About (resume-accurate bio), Contact, Service Area
+- [ ] Start a File + Schedule wired to CRM/calendar; click-to-call `(309) 391-3489`
 - [ ] Privacy + disclaimer
 - [ ] Schema + sitemap + Search Console / Bing
 
-### Phase 2 — Authority & AEO depth
-- [ ] Agency Defense spoke (if not folded into Employer Counsel)
-- [ ] 8–12 resource articles from real FAQ demand
-- [ ] FAQ expansion on top 4 pages
-- [ ] Review generation process
-- [ ] First local backlinks (Chamber, SHRM talk, guest post)
-- [ ] Decide CLF ↔ PLLC cross-linking / redirect strategy for overlapping queries
+### Phase 2 — Twilio AI + authority
+- [ ] Provision new firm number on Twilio
+- [ ] AI voice/SMS assistant for intake/scheduling (no legal advice)
+- [ ] Cut over NAP on site, GBP, directories
+- [ ] Agency Defense spoke (if not folded earlier)
+- [ ] Resource articles + FAQ expansion
+- [ ] Reviews + local backlinks
 
 ### Phase 3 — Optimization
 - [ ] Conversion tuning (form fields, CTA copy by path)
@@ -282,7 +266,7 @@ Consult → engagement letter → LawPay → CMS matter + portal
 ## 7. Sitemap wireframe (user flows)
 
 ### Employer in crisis
-Google/AI → Investigations page → Start a File (Employer / Urgent) → Schedule this week → Deep intake → Consult
+Google/AI → Investigations page → Call `(309) 391-3489` or Start a File (Urgent) → Schedule → Deep intake → Consult
 
 ### HR planning training
 Resources or Training page → Schedule → Scoped engagement / retainer discussion
@@ -293,24 +277,27 @@ Business Formations page → Start a File (Business) → Schedule → Engagement
 ### Family / estate
 Spoke page → Schedule (often lower urgency) → Consult → Engagement
 
+### After Twilio launch
+Missed call / after-hours SMS → AI qualifies + books or creates CRM lead → Andrew confirms
+
 ---
 
 ## 8. Messaging guardrails
 
 **Do**
+- Lead with Fortune 100–scale in-house facts (Deere; Microsoft/ABK) and concrete headcounts
 - Speak to employers as operators (“investigate cleanly”, “document the interactive process”)
-- Lead with in-house / bargaining-table credibility (Deere, Central Texas HR)
 - Name Texas / Leander / Central Texas where true; note IL license when relevant
 - Separate employer vs personal paths early
-- Reuse proven CLF service language where accurate, under **Crawford Law PLLC**
+- Keep the firm **law-only** and visually restrained/professional
 
 **Don’t**
+- Co-brand with finance or imply a joint firm
 - Imply plaintiff-side employment representation if that’s not the practice
 - Guarantee investigation or case outcomes
-- Overload the hero with every practice area
+- Overload the hero with every practice area or logo walls
 - Use thin multi-city doorway pages
-- Port Vicky/finance offerings into PLLC IA
-- Clone the CLF “Law Meets Financial Strategy” thesis on the PLLC homepage
+- Publish personal Gmail as the primary firm email
 
 ---
 
@@ -318,14 +305,14 @@ Spoke page → Schedule (often lower urgency) → Consult → Engagement
 
 1. **Domain:** crawfordlaw.com / crawfordlawpllc.com / crawford.law / other?
 2. **Practice management stack:** Clio vs MyCase vs other?
-3. **Office posture:** Leander address public on GBP/site, Austin metro only, or by appointment only?
-4. **Phone:** Keep `(512) 739-2100` as PLLC line?
-5. **Fee posture on site:** publish consult fee / ranges, or “contact for engagement terms”?
-6. **Family law / estate scope:** full representation vs uncontested / planning-only at launch?
-7. **Photos:** Import `andrew.jpg` / `office.png` as-is, or new headshots?
-8. **Primary CTA verb:** “Start a File” vs “Schedule a Consultation” (CLF used the latter) vs both?
-9. **CLF site future:** keep both brands, redirect employment URLs, or soft cross-link?
-10. **Employment disclosure:** How to present Activision Blizzard / current roles alongside solo PLLC?
+3. **Office posture:** Publish 300 Bello Drive on GBP/site, or service-area only?
+4. **Fee posture:** publish consult fee / ranges, or “contact for engagement terms”?
+5. **Family law / estate scope:** full representation vs uncontested / planning-only at launch?
+6. **Photos:** Import prior `andrew.jpg` or commission new professional headshots?
+7. **Primary CTA verb:** “Start a File” + “Schedule” (recommended) vs phone-first?
+8. **ABK role wording:** “Present” vs “Most recently” at launch?
+9. **Twilio number:** prefer 512/737 local vs keep 309 publicly until cutover?
+10. **Firm email:** which domain mailbox becomes public contact?
 
 ---
 
@@ -336,12 +323,14 @@ Spoke page → Schedule (often lower urgency) → Consult → Engagement
 | Professional first impression | Bounce/time on home; qualitative feedback |
 | Search visibility | GBP actions; rankings for core Leander + employment queries |
 | AI visibility | Named in answers for 3+ target queries within ~90 days of content+schema |
-| Conversion | ≥ target % of practice-page visitors start intake or book |
-| Ops ease | New matter data lands in CMS without retyping |
+| Conversion | Intake starts + booked consults from web and phone |
+| Ops ease | New matter data lands in CMS without retyping; later AI leads arrive structured |
 
 ---
 
 ## Related docs
+- [Attorney bio & messaging](../content/attorney-bio-and-messaging.md)
+- [Intake & Twilio AI assistant](intake-and-twilio-assistant.md)
 - [Small-firm website benchmarks](../research/small-firm-website-benchmarks.md)
 - [Local & AI search research](../research/local-and-ai-search.md)
-- [CLF content inventory (Andrew portions)](../research/crawfordlawfinance-content-inventory.md)
+- [CLF content inventory (photos/copy only)](../research/crawfordlawfinance-content-inventory.md)
