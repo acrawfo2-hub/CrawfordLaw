@@ -8,6 +8,7 @@ Website and planning workspace for **Crawford Law PLLC** — a Texas solo firm b
 |---|---|
 | [Small-firm website benchmarks](docs/research/small-firm-website-benchmarks.md) | Research on high-performing boutique / small-firm site patterns |
 | [Local & AI search](docs/research/local-and-ai-search.md) | Leander/Austin local SEO + Answer Engine Optimization (AEO) |
+| [CLF content inventory](docs/research/crawfordlawfinance-content-inventory.md) | Andrew-relevant copy, services, and assets from crawfordlawfinance.com |
 | [Website architecture plan](docs/plans/website-architecture.md) | Recommended IA, intake flow, tech approach, and launch phases |
 
 ## Entity
