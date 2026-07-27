@@ -1,6 +1,6 @@
 # Research: What Top Small / Boutique Law Firm Websites Do Well
 
-**Firm context:** Crawford Law PLLC (Texas SOS File No. 806712661; effective 07/24/2026). Principal: Andrew Michael Crawford, Leander, TX 78641. Specialty focus: employer-side employment law (workplace investigations, FMLA/ADA accommodations & leave, training). Secondary: general counsel-style work (contracts, formations, family law, estate planning).
+**Firm context:** Crawford Law PLLC (Texas SOS File No. 806712661; effective 07/24/2026). Principal: Andrew Michael Crawford, J.D., SPHR (IL & TX), Leander, TX 78641. Specialty focus: employer-side employment law (workplace investigations, FMLA/ADA accommodations & leave, training, labor relations). Secondary: general counsel-style work (contracts, formations, family law, estate planning). Existing bio/services donor: [crawfordlawfinance.com](https://crawfordlawfinance.com/).
 
 **Research date:** July 27, 2026
 
